@@ -86,3 +86,61 @@ header a {
     display: inline;
 }
 /* fine header */
+
+/* jumbo */
+#jumbo {
+    background-color: lightblue;
+    min-height: 500px;   
+}
+
+.banner {
+    width: 60%;
+    color: black;
+    top: 50%;
+    left: 20%;
+}
+
+.banner h1 {
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    right: 25%;
+    font-size: 60px;
+    width: 70%;
+}
+
+.banner p {
+    text-align: left;
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    width: 25%;
+}
+
+#inizia .btn-blue {
+    padding: 10px;
+    display: inline;
+}
+
+.inizia-position {
+    position: absolute;
+    bottom: 33%;
+    left: 5%;
+}
+
+#inizia p {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;    
+}
+
+#inizia .arrow {
+    position: absolute;
+    bottom: 22%;
+    left: 5%;
+    font-size: 50px;
+    color: black;
+}
+
+
+/* fine jumbo */
