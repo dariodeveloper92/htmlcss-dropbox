@@ -55,8 +55,10 @@ header .logo {
 
 header .main-nav-left {
     float: left;
+    top: 10%
     width: 70%;
     text-align: center;
+    
 }
 
 header .main-nav-right {
@@ -90,7 +92,7 @@ header a {
 /* jumbo */
 #jumbo {
     background-color: lightblue;
-    min-height: 500px;   
+    min-height: 550px;   
 }
 
 .banner {
@@ -103,7 +105,7 @@ header a {
 .banner h1 {
     position: absolute;
     text-align: left;
-    top: 20%;
+    top: 15%;
     right: 25%;
     font-size: 60px;
     width: 70%;
@@ -142,5 +144,15 @@ header a {
     color: black;
 }
 
+.finestra-jumbo {
+    background-image: url(../img/jumbo.png);
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    position: absolute;
+    right: 20%;
+    bottom: 3%;
+
+}
 
 /* fine jumbo */
