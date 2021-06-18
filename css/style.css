@@ -60,7 +60,8 @@ header .logo {
 
 .logo,
 .main-nav-left,
-.main-nav-right {
+.main-nav-right,
+#accedi {
     display: inline;
 } 
 
@@ -165,6 +166,27 @@ header a {
 
 }
 /* fine jumbo */
+
+/* main */
+.prima-sezione {
+    margin: 20% 20%;
+}
+
+h2 {
+    text-align: left;
+}
+
+.prima-sezione input .radio-1 {
+    position: absolute;
+    width: 25%;
+    margin: 20px;
+}
+
+.prima-sezione input .radio-2 {
+    position: absolute;
+    width: 25%;
+}  
+/* fine main */
 
 /* footer */
 footer {
