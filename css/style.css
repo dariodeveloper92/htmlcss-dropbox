@@ -194,16 +194,14 @@ h2 {
     text-align: left;
 }
 
-.prima-sezione input .radio-1 {
-    position: absolute;
-    width: 25%;
-    margin: 20px;
+.radio-margin {
+    margin: 30px 0;
 }
 
-.prima-sezione input .radio-2 {
-    position: absolute;
-    width: 25%;
-}  
+.fatturazione-mensile,
+.fatturazione-annuale {
+    color: black;
+}
 
 .prima-colonna {
     position: relative;
@@ -263,7 +261,8 @@ h2 {
 .prova-position {
     position: absolute;
     bottom: 45%;
-    left: 5%;
+    left: 12%;
+    padding: 10px 40px;
 }
 
 .gray-text {
@@ -278,6 +277,12 @@ h2 {
 
 .blue-text {
     color: blue;
+}
+
+.contatta-position {
+    float: right;
+    margin: 20px;
+    padding: 10px 50px;
 }
 /* fine main */
 
