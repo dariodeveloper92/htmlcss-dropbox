@@ -188,7 +188,7 @@ h2 {
 
 .prima-colonna {
     position: relative;
-    width: 50%;
+    width: 55%;
     height: 100vh;
     border: 1px solid black;
     background-position: center;
@@ -210,10 +210,18 @@ h2 {
     left: 5%;
 }
 
+.gray-text {
+    color: gray;
+}
+
 .acquista-ora {
     position: absolute;
     margin: 370px 35px;
     text-align: left;
+}
+
+.blue-text {
+    color: blue;
 }
 /* fine main */
 
