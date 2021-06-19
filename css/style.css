@@ -33,7 +33,6 @@ a:hover {
 
 .btn-blue {
     display: inline;
-    
     padding: 16px 32px;
     background-color: blue;
     color: white;
@@ -186,6 +185,36 @@ h2 {
     position: absolute;
     width: 25%;
 }  
+
+.prima-colonna {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.title {
+    position: absolute;
+    margin: 25px 35px;
+    text-align: left;
+}
+
+.prova-position {
+    position: absolute;
+    bottom: 45%;
+    left: 5%;
+}
+
+.acquista-ora {
+    position: absolute;
+    margin: 370px 35px;
+    text-align: left;
+}
 /* fine main */
 
 /* footer */
