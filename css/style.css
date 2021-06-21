@@ -376,14 +376,14 @@ li {
 }
 /* fine barra inferiore */
 
-.box-superiore {
+.box {
     position: relative;
 }
 
-.box-inferiore {
-    position: relative;
+.quarta-sezione {
+    width: 84%;
+    margin: 0 20%;
 }
-
 /* fine main */
 
 /* footer */
