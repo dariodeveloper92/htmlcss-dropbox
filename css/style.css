@@ -314,6 +314,45 @@ li {
     float: left;
     margin: 30px 50%;
 }
+
+.terza-sezione {
+    width: 100%;
+    margin: 0 20%;
+}
+
+.barra-superiore {
+    height: 100px;
+    margin: 0;
+    padding: 10px;
+}
+
+.barra-sinistra,
+.barra-centrale,
+.barra-destra {
+    float: left;
+    padding: 10px;
+}
+
+.barra-sinistra,
+.barra-centrale,
+.barra-destra {
+    width: 20%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.barra-sinistra img,
+.barra-centrale img,
+.barra-destra img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.box {
+    position: relative;
+}
+
 /* fine main */
 
 /* footer */
