@@ -395,8 +395,9 @@ li {
 }
 
 .card {
-    margin: 20% 20%;
-    width: 100%;;
+    background-color: rgb(174, 241, 16);
+    min-height: 300px; 
+    width: 125%;
 }
 
 span .img {
@@ -405,33 +406,40 @@ span .img {
 
 .box-img img  {
     position: relative;
-    width: 15vh;
-    height: 15vh;
+    width: 30vh;
+    height: 30vh;
     line-height: 15vh;
-    border: 1px solid black;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    margin: 30px 0;
     display: inline;
+    color: white;
+    float: left;
 }
 
-.box-img-centrale img {
+.box-img-centrale .text-designit  {
     position: relative;
-    width: 90%;
+    width: 80vh;
     height: 60vh;
     border: 1px solid black;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    margin: 30px 0;
+    background-color: white;
+    float: left;
+}
+
+img .green{
+    width: 100px;
+    height: 100px;
 }
 
 /* colore brand */
 .green {
     background-color: greenyellow;
+    border: 10px solid rgb(166, 255, 131);
     color: white;
 }
 
