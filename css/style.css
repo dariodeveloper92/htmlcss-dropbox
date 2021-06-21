@@ -214,7 +214,7 @@ h2 {
 .prima-colonna {
     position: relative;
     width: 28%;
-    height: 100vh;
+    height: 150vh;
     border: 1px solid black;
     background-position: center;
     background-size: cover;
@@ -226,7 +226,7 @@ h2 {
 .seconda-colonna {
     position: relative;
     width: 28%;
-    height: 100vh;
+    height: 150vh;
     border: 1px solid black;
     background-position: center;
     background-size: cover;
@@ -238,7 +238,7 @@ h2 {
 .terza-colonna {
     position: relative;
     width: 28%;
-    height: 100vh;
+    height: 150vh;
     border: 1px solid black;
     background-position: center;
     background-size: cover;
@@ -268,7 +268,7 @@ h2 {
 
 .prova-position {
     position: absolute;
-    bottom: 45%;
+    bottom: 55%;
     left: 12%;
     padding: 10px 40px;
 }
@@ -279,7 +279,7 @@ h2 {
 
 .acquista-ora {
     position: absolute;
-    margin: 370px 35px;
+    margin: 480px 35px;
     text-align: left;
 }
 
@@ -504,11 +504,9 @@ span .img {
 
 .faq {
     width: 84%;
-    height: 30vh;
     position: relative;
     margin: 10% 20%;
     display: inline-block;
-    margin: ;
 }
 
 .line {
@@ -548,8 +546,81 @@ span .img {
 
 /* footer */
 footer {
-    width: 100%;
-    height: 100%;
     background-color: black;
+    height: 100%; 
+    color: white;
 }
+
+.container-footer {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.line-footer {
+    width: 100px;
+    position: absolute;
+    margin: 0 7%;
+}
+
+
+
+.footer-top {
+    width: 100%;
+    margin: 0 5%;
+    height: 50vh;
+}
+
+.footer-bottom {
+    width: 100%;
+    margin: 0 10%;
+    height: 20vh;
+}
+
+.first-faq,
+.second-faq,
+.third-faq,
+.fourth-faq,
+.fifth-faq {
+    height: 100px;
+    margin: 30px;
+    padding: 10px;
+    float: left; 
+}
+
+.earth {
+    position: absolute;
+    margin: 0 -3%;
+    color: white;
+
+}
+
+/* .first-faq,
+.second-faq,
+.third-faq,
+.fourfth-faq,
+.fifth-faq {
+    float: left;
+    height: 100px;
+    padding: 10px;
+} */
+
+/* .container-footer {
+    width: 100%;
+}
+
+.footer-top {
+    width: 80%;
+    margin: 0 270px;
+}
+
+
+
+.footer-bottom {
+    width: 80%;
+    position: absolute;
+    margin: 300px 270px;
+} */
 /* fine footer */
