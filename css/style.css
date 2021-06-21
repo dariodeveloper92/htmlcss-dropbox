@@ -80,11 +80,14 @@ header .main-nav-left {
 }
 
 header .main-nav-right {
-    float: right;
+    float: left;
+    position: absolute;
+    right: 100px
 }
 
 header #accedi {
     float: right;
+    margin: 0 10px;
 }
 
 header a {
@@ -283,6 +286,21 @@ h2 {
     float: right;
     margin: 20px;
     padding: 10px 50px;
+}
+
+.seconda-sezione {
+    position: relative;
+    vertical-align: middle;
+    height: auto;
+}
+    
+.riga>div {
+        display: inline-block;
+        width: 49%;
+}
+
+li {
+    list-style: none;
 }
 /* fine main */
 
