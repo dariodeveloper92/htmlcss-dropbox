@@ -352,7 +352,6 @@ li {
 .barra-sup-centrale img,
 .barra-sup-destra img {
     width: 100%;
-    max-height: 180px;
     object-fit: cover;
 }
 /* fine barra superiore */
@@ -377,7 +376,6 @@ li {
 .barra-inf-centrale img,
 .barra-inf-destra img {
     width: 100%;
-    
     object-fit: cover;
 }
 /* fine barra inferiore */
@@ -468,7 +466,6 @@ span .img {
 }
 /* fine colore brand */
 
-
 #secondo-banner {
     background-color: lightblue;
     min-height: 300px; 
@@ -499,13 +496,13 @@ span .img {
 
 .quinta-sezione {
     width: 100%;
-    margin: 0;
+    margin: 0 30%;
 }
 
 .faq {
-    width: 84%;
+    width: 100%;
     position: relative;
-    margin: 10% 20%;
+    margin: 80px 0;
     display: inline-block;
 }
 
@@ -565,8 +562,6 @@ li {
     margin: 0 7%;
 }
 
-
-
 .footer-top {
     width: 100%;
     margin: 0 5%;
@@ -594,33 +589,6 @@ li {
     position: absolute;
     margin: 0 -3%;
     color: white;
-
 }
 
-/* .first-faq,
-.second-faq,
-.third-faq,
-.fourfth-faq,
-.fifth-faq {
-    float: left;
-    height: 100px;
-    padding: 10px;
-} */
-
-/* .container-footer {
-    width: 100%;
-}
-
-.footer-top {
-    width: 80%;
-    margin: 0 270px;
-}
-
-
-
-.footer-bottom {
-    width: 80%;
-    position: absolute;
-    margin: 300px 270px;
-} */
 /* fine footer */
