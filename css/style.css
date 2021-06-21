@@ -42,7 +42,6 @@ a:hover {
     display: inline;
     padding: 16px 32px;
     background-color: white;
-    color: lack;
 }
 
 /* .clearfix::after {
@@ -497,6 +496,54 @@ span .img {
     font-size: 30px;
     width: 400px;
 }
+
+.quinta-sezione {
+    width: 100%;
+    margin: 0;
+}
+
+.faq {
+    width: 84%;
+    height: 30vh;
+    position: relative;
+    margin: 10% 20%;
+    display: inline-block;
+    margin: ;
+}
+
+.line {
+    width: 70%;
+}
+
+.trova-position {
+    position: absolute;
+    margin: 20px 0;
+    padding: 10px 40px;
+    color: black;
+    border: 2px solid black;
+}
+
+/* faq inline */
+.faq-inline {
+    display: inline;
+}
+
+.faq-none {
+    display: none;
+}
+
+.faq:hover .faq-inline {
+    display: none;
+}
+
+.faq:hover .faq-none {
+    display: inline;
+}
+
+.prima .seconda .terza .quarta {
+    display: inline;
+}
+/* fine faq inline */
 /* fine main */
 
 /* footer */
