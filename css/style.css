@@ -165,7 +165,6 @@ header a {
     position: absolute;
     right: 20%;
     bottom: 3%;
-
 }
 /* fine jumbo */
 
@@ -208,7 +207,7 @@ h2 {
 
 .prima-colonna {
     position: relative;
-    width: 30%;
+    width: 28%;
     height: 100vh;
     border: 1px solid black;
     background-position: center;
@@ -220,7 +219,7 @@ h2 {
 
 .seconda-colonna {
     position: relative;
-    width: 30%;
+    width: 28%;
     height: 100vh;
     border: 1px solid black;
     background-position: center;
@@ -232,7 +231,7 @@ h2 {
 
 .terza-colonna {
     position: relative;
-    width: 30%;
+    width: 28%;
     height: 100vh;
     border: 1px solid black;
     background-position: center;
@@ -244,7 +243,7 @@ h2 {
 
 .bottom-bar {
     position: relative;
-    width: 90%;
+    width: 84%;
     height: 30vh;
     padding: 10px;
     border: 1px solid black;
@@ -296,11 +295,24 @@ h2 {
     
 .riga>div {
         display: inline-block;
-        width: 49%;
+        width: 40%;
+}
+
+.text-1 {
+    padding: ;
+    float: right;
+    margin: 60px -8%;
 }
 
 li {
     list-style: none;
+}
+
+.img-partner {
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin: 30px 50%;
 }
 /* fine main */
 
