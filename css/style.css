@@ -38,6 +38,13 @@ a:hover {
     color: white;
 }
 
+.btn-white {
+    display: inline;
+    padding: 16px 32px;
+    background-color: white;
+    color: lack;
+}
+
 /* .clearfix::after {
     content: "";
     display: table;
@@ -381,8 +388,114 @@ li {
 }
 
 .quarta-sezione {
+    width: 100%;
+    margin: 0;
+}
+
+.title-team {
     width: 84%;
-    margin: 0 20%;
+    margin: 20px 20%;
+}
+
+.card {
+    margin: 20% 20%;
+    width: 100%;;
+}
+
+span .img {
+    color: white;
+}
+
+.box-img img  {
+    position: relative;
+    width: 15vh;
+    height: 15vh;
+    line-height: 15vh;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 30px 0;
+    display: inline;
+}
+
+.box-img-centrale img {
+    position: relative;
+    width: 90%;
+    height: 60vh;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* colore brand */
+.green {
+    background-color: greenyellow;
+    color: white;
+}
+
+.bordeaux {
+    background-color: rgb(143, 22, 22);
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.light-blue {
+    background-color: lightblue;
+    color: white;
+}
+
+.blue {
+    background-color: rgba(46, 46, 255, 0.952);
+    color: white;
+}
+
+.dark-blue {
+    background-color: darkblue;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: white;
+}
+/* fine colore brand */
+
+
+#secondo-banner {
+    background-color: lightblue;
+    min-height: 300px; 
+    width: 125%;
+}
+
+.banner {
+    width: 60%;
+    color: rgb(143, 22, 22);
+    top: 50%;
+    left: 20%;
+}
+
+.porta-position {
+    float: right;
+    margin: 100px 20%;
+    padding: 10px 40px;
+    color: black;
+}
+
+.porta-dropbox {
+    position: absolute;
+    text-align: left;
+    margin: 100px 20%;
+    font-size: 30px;
+    width: 400px;
 }
 /* fine main */
 
