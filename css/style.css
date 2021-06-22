@@ -179,6 +179,7 @@ header a {
     width: 80%;
 }
 
+/* prima sezione */
 .prima-sezione {
     margin: 20% 20%;
     width: 100%;
@@ -292,7 +293,9 @@ h2 {
     margin: 20px;
     padding: 10px 50px;
 }
+/* fine prima sezione */
 
+/* seconda sezione */
 .seconda-sezione {
     position: relative;
     vertical-align: middle;
@@ -300,8 +303,8 @@ h2 {
 }
     
 .riga>div {
-        display: inline-block;
-        width: 40%;
+    display: inline-block;
+    width: 40%;
 }
 
 .text-1 {
@@ -320,7 +323,9 @@ li {
     float: left;
     margin: 30px 50%;
 }
+/* fine seconda zezione */
 
+/* terza sezione */
 .terza-sezione {
     width: 100%;
     margin: 0 20%;
@@ -388,9 +393,75 @@ li {
     object-fit: cover;
 }
 /* fine barra inferiore */
+/* fine terza sezione */
 
-.box {
-    position: relative;
+/* quarta sezione */
+.col-side {
+    float: left;
+    height: 30vw;
+    width: 30vw;
+}
+
+.col-center {
+    float: left;
+    background-color: white;
+    padding: 50px;
+    width: calc(100%-60vw);
+    height: 30vw;
+    overflow-y: auto;
+}
+
+.col-side.item {
+    float: left;
+    height: 15vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 15vw;
+}
+
+.col-side .item.active {
+    border: 10px solid rgba( 255, 255, 255, .5);
+    line-height: 14vw;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.col-side .item img {
+    width: 50%;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.col-side .item.active img {
+    width: 60%;
+}
+
+/* colore logo customer */
+.col-side .item.green {
+    background-color: greenyellow;    
+}
+
+.col-side .item.red-dark {
+    background-color: rgb(143, 22, 22);    
+}
+
+.col-side .item.blue {
+    background-color: rgb(72, 72, 255);    
+}
+
+.col-side .item.red {
+    background-color: red;    
+}
+
+.col-side .item.light-blue {
+    background-color: lightblue;    
+}
+/* fine colore logo customer */
+
+.col-center p {
+    margin: 50px 0;
 }
 
 .quarta-sezione {
@@ -399,89 +470,10 @@ li {
 }
 
 .title-team {
-    width: 84%;
+    width: 28%;
     margin: 20px 20%;
 }
 
-.card {
-    background-color: rgb(174, 241, 16);
-    min-height: 300px; 
-    width: 125%;
-}
-
-span .img {
-    color: white;
-}
-
-.box-img img  {
-    position: relative;
-    width: 100px;
-    height: 30vh;
-    line-height: 15vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: inline;
-    color: white;
-    float: left;
-}
-
-.box-img-centrale .text-designit  {
-    position: relative;
-    width: 300px;
-    height: 60vh;
-    border: 1px solid black;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-color: white;
-    float: left;
-}
-
-img .green{
-    width: 100px;
-    height: 100px;
-}
-
-/* colore brand */
-.green {
-    background-color: greenyellow;
-    border: 10px solid rgb(166, 255, 131);
-    color: white;
-}
-
-.bordeaux {
-    background-color: rgb(143, 22, 22);
-    color: white;
-}
-
-.red {
-    background-color: red;
-    color: white;
-}
-
-.light-blue {
-    background-color: lightblue;
-    color: white;
-}
-
-.blue {
-    background-color: rgba(46, 46, 255, 0.952);
-    color: white;
-}
-
-.dark-blue {
-    background-color: darkblue;
-    color: white;
-}
-
-.yellow {
-    background-color: yellow;
-    color: white;
-}
-/* fine colore brand */
 
 #secondo-banner {
     background-color: lightblue;
@@ -510,7 +502,9 @@ img .green{
     font-size: 30px;
     width: 400px;
 }
+/* fine quarta sezione */
 
+/* quinta sezione */
 .quinta-sezione {
     width: 100%;
     margin: 0 30%;
@@ -556,6 +550,7 @@ img .green{
     display: inline;
 }
 /* fine faq inline */
+/* fine quinta sezione */
 /* fine main */
 
 /* footer */
