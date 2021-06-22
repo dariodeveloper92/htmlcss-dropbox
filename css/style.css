@@ -402,6 +402,14 @@ li {
     width: 30vw;
 }
 
+.item {
+    display: inline-block;
+    height: 15vw;
+    width: 15vw;
+    text-align: center;
+    line-height: 15vw;
+}
+
 .col-center {
     float: left;
     background-color: white;
@@ -411,7 +419,7 @@ li {
     overflow-y: auto;
 }
 
-.col-side.item {
+.col-side .item {
     float: left;
     height: 15vw;
     width: 15vw;
@@ -438,6 +446,10 @@ main img {
     width: 60%;
 }
 
+.col-central .item.active img {
+    width: 25%;
+}
+
 /* colore logo customer */
 .col-side .item.green {
     background-color: greenyellow;    
@@ -448,7 +460,7 @@ main img {
 }
 
 .col-side .item.blue {
-    background-color: rgb(72, 72, 255);    
+    background-color: rgb(96, 96, 255);    
 }
 
 .col-side .item.red {
@@ -458,10 +470,29 @@ main img {
 .col-side .item.light-blue {
     background-color: lightblue;    
 }
+
+.col-side .item.dark-blue {
+    background-color: darkblue;    
+}
+
+.col-side .item.yellow {
+    background-color: yellow;    
+}
 /* fine colore logo customer */
+
+.barra {
+    height: 1px;
+    background-color: #d0d0d3;
+    width: 50px;
+    margin: 30px 0;
+}
 
 .col-center p {
     margin: 50px 0;
+}
+
+.col-center span {
+    padding-bottom: 10px;
 }
 
 .quarta-sezione {
