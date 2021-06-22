@@ -293,6 +293,14 @@ h2 {
     margin: 20px;
     padding: 10px 50px;
 }
+
+ul.specs {
+    padding: 20px 0;
+}
+
+.punti-salienti {
+    padding: 30px 0;
+}
 /* fine prima sezione */
 
 /* seconda sezione */
