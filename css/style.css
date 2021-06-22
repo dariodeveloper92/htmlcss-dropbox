@@ -39,7 +39,7 @@ a:hover {
 }
 
 .btn-white {
-    display: inline;
+    display: inline-block;
     padding: 16px 32px;
     background-color: white;
 }
@@ -330,6 +330,15 @@ li {
     height: 100px;
     margin: 0;
     padding: 10px;
+}
+
+.acquista-ora .specs li .fa-check{
+    color: blue;
+}
+
+.acquista-ora .specs li .fas, 
+.acquista-ora .specs li .far {
+    margin-left: -19px;
 }
 
 /* barra superiore */
