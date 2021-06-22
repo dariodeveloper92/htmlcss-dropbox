@@ -176,7 +176,7 @@ header a {
 
 /* main */
 .container-main {
-    width: 80%;
+    width: 100%;
 }
 
 /* prima sezione */
@@ -505,14 +505,18 @@ main img {
     margin: 20px 20%;
 }
 
+.row {
+    width: 100%;
+}
 
 #secondo-banner {
     background-color: lightblue;
     min-height: 300px; 
     width: 100%;
+    display: inline-block;
 }
 
-.banner {
+.banner-secondo {
     width: 60%;
     color: rgb(143, 22, 22);
     top: 50%;
@@ -527,7 +531,7 @@ main img {
 }
 
 .porta-dropbox {
-    position: absolute;
+    
     text-align: left;
     margin: 100px 20%;
     font-size: 30px;
