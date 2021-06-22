@@ -108,7 +108,28 @@ header a {
     display: inline;
 }
 
-.main-nav-left nav a:hover {
+.main-nav-left nav,
+.main-nav-right nav {
+    display: inline-block;
+}
+
+.main-nav-left nav li,
+.main-nav-right nav li {
+    margin: 0 5px;
+    display: inline-block;
+    line-height: 70px;
+}
+
+.main-nav-left nav li a,
+.main-nav-right nav li a {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav-left nav a:hover,
+.main-nav-right nav a:hover  {
     border-bottom: 2px solid blue;
 }
 /* fine header */
