@@ -414,7 +414,7 @@ li {
     float: left;
     background-color: white;
     padding: 50px;
-    width: calc(100%-60vw);
+    width: calc(100% - 60vw);
     height: 30vw;
     overflow-y: auto;
 }
@@ -509,7 +509,7 @@ main img {
 #secondo-banner {
     background-color: lightblue;
     min-height: 300px; 
-    width: 125%;
+    width: 100%;
 }
 
 .banner {
